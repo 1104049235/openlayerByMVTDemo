@@ -81,8 +81,8 @@ export default {
       const map = new Map({
         target: "map",
         view: new View({
-          center: [113.1917,33.991], //中心点经纬度
-          zoom: 11.32, //图层缩放大小
+          center: [  116.405285, 39.904989], //中心点经纬度
+          zoom: 2.32, //图层缩放大小
           projection: "EPSG:4326",
         }),
         controls: defaultControls({
